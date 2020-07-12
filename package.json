@@ -5,12 +5,19 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && next export"
+    "deploy": "next build && next export",
+    "fmt": "prettier --write **/*.{js,json,md}"
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "dependencies": {
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }

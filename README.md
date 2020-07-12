@@ -2,15 +2,11 @@
 
 ![screenshot demo](./images/demo.png)
 
-
-
 ## Start development server
 
 ```
 yarn dev
 ```
-
-
 
 ---
 
